@@ -67,5 +67,15 @@ func MoveFile(from string, to string) error {
 		}
 	}
 
-	return os.Rename(from, to)
+	fi, err := os.Stat(from)
+	if err != nil {
+		return err
+	}
+
+	err = os.Rename(from, to)
+	if err != nil {
+		return err
+	}
+	// reset mtime to original
+	return os.Chtimes(to, fi.ModTime(), fi.ModTime())
 }

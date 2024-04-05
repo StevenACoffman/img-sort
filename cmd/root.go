@@ -100,7 +100,7 @@ func moveFileToUnknown(file string, targetArg string, dryRunFlag bool) error {
 
 func moveFileToTarget(file string, fileDate time.Time, targetArg string, dryRunFlag bool) error {
 	yearDir := fmt.Sprintf("%d", fileDate.Year())
-	monthDir := fmt.Sprintf("%d-%02d", fileDate.Year(), fileDate.Month())
+	monthDir := fmt.Sprintf("%02d", fileDate.Month())
 	fileName := fmt.Sprintf("%d-%02d-%02d_%02d.%02d.%02d%s", fileDate.Year(), fileDate.Month(), fileDate.Day(), fileDate.Hour(), fileDate.Minute(), fileDate.Second(), strings.ToLower(filepath.Ext(file)))
 	newPath := filepath.Join(targetArg, yearDir, monthDir, fileName)
 
