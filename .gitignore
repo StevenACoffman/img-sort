@@ -218,3 +218,4 @@ roster/clever
 pkg/gcpapi/datastore/dstest/lockfiles/
 cover.html
 go.work.sum
+dist/
