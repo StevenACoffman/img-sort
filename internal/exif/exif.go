@@ -4,10 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/barasher/go-exiftool"
-	"github.com/patrickap/img-sort/m/v2/internal/config"
-	"github.com/patrickap/img-sort/m/v2/internal/log"
-	"github.com/patrickap/img-sort/m/v2/internal/util"
+	"github.com/StevenACoffman/img-sort/internal/config"
+	"github.com/StevenACoffman/img-sort/internal/log"
+	"github.com/StevenACoffman/img-sort/internal/util"
 )
 
 var (

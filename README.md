@@ -85,7 +85,7 @@ img-sort /path/to/source /path/to/target
 
 ## Building from sources
 
-1. Clone this repository: `git clone https://github.com/patrickap/img-sort.git`
+1. Clone this repository: `git clone https://github.com/StevenACoffman/img-sort.git`
 2. Navigate into the project directory: `cd img-sort`
 3. Build the tool: `sh build.sh`
 4. Run the binary: `build/img-sort`

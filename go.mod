@@ -1,9 +1,8 @@
-module github.com/patrickap/img-sort/m/v2
+module github.com/StevenACoffman/img-sort
 
-go 1.21.6
+go 1.22
 
 require (
-	github.com/barasher/go-exiftool v1.10.0
 	github.com/rs/zerolog v1.31.0
 	github.com/spf13/cobra v1.8.0
 )
