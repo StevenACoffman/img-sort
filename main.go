@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/patrickap/img-sort/m/v2/cmd"
-	"github.com/patrickap/img-sort/m/v2/internal/exif"
+	"github.com/StevenACoffman/img-sort/internal/exif"
+	"github.com/StevenACoffman/img-sort/m/v2/cmd"
 )
 
 func main() {

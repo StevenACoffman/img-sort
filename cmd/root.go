@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/patrickap/img-sort/m/v2/internal/config"
-	"github.com/patrickap/img-sort/m/v2/internal/exif"
-	"github.com/patrickap/img-sort/m/v2/internal/log"
-	"github.com/patrickap/img-sort/m/v2/internal/util"
+	"github.com/StevenACoffman/img-sort/internal/config"
+	"github.com/StevenACoffman/img-sort/internal/exif"
+	"github.com/StevenACoffman/img-sort/internal/log"
+	"github.com/StevenACoffman/img-sort/internal/util"
 	"github.com/spf13/cobra"
 )
 
